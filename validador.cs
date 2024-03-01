@@ -33,6 +33,12 @@ public class Validador
         try
         {
             resultado = double.Parse(valor);
+            if(resultado <= 0)
+            {
+                Console.WriteLine("Digite um valor válido!!![Pressione Enter para continuar]");
+                resultado = 0;
+                Console.ReadLine();
+            }
         }
         catch (System.Exception)
         {

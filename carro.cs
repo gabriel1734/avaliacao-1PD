@@ -20,10 +20,12 @@ public class Carro
     
     public void EditarDados()
     {
+        
         string valor;
         double x = 0;
             while (x == 0)
             {
+                Console.Clear();
                 Console.WriteLine("Digite o tipo do carro: ");
                 Console.WriteLine("1 - Flex");
                 Console.WriteLine("2 - Gasolina");
