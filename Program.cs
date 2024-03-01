@@ -12,9 +12,6 @@ while (x != 3) {
     Console.WriteLine("Digite 2 para Editar os dados: ");
     Console.WriteLine("Digite 3 para Sair: ");
     
-    Console.WriteLine(carro.Tipo);
-    Console.WriteLine(carro.Proporcao);
-    
     string valor = Console.ReadLine();
     x = validador.Parser(valor);
     
